@@ -17,11 +17,17 @@ export default function Navbar() {
   return (
     <nav className="flex items-center space-x-6 px-8 py-4 shadow-md bg-white fixed top-0 left-0 right-0 z-50">
       {/* Logo */}
-       <img src="image.png" alt="Power Grid Logo" className="h-10 w-40" />
+       <Link to="/">
+  <img src="image.png" alt="Power Grid Logo" className="h-10 w-40 cursor-pointer" />
+</Link>
 
       {/* Nav Links */}
       <ul className="hidden md:flex space-x-6 text-gray-900 font-medium">
-        <li><a href="#" className="font-medium hover:underline hover:decoration-2 hover:underline-offset-4">About us</a></li>
+        <li>
+  <Link to="/about-us" className="font-medium hover:underline hover:decoration-2 hover:underline-offset-4">
+    About us
+  </Link>
+</li>
         <li className="relative group">
            <a href="#" className="font-medium hover:underline hover:decoration-2 hover:underline-offset-4 flex items-center">
             Centres

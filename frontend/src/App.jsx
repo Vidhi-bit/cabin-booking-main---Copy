@@ -8,6 +8,7 @@ import OfficeSpacePage from './components/ui/OfficeSpacePage';
 import EventsPage from './components/ui/EventsPage';
 import PrivateOfficePage from './components/ui/PrivateOfficePage';
 import CityDetailPage from './components/ui/CityDetailPage';
+import AboutUsPage from './components/ui/AboutUsPage';
 import { Button } from './components/ui/button'
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
            <Route path="/events-shoots-and-advertising/:city" element={<EventsPage />} />
            <Route path="/private-office/:city" element={<PrivateOfficePage />} /> 
            <Route path="/centre/:city" element={<CityDetailPage />} />
+           <Route path="/about-us" element={<AboutUsPage />} />
 
         </Routes>
       </div>

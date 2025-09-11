@@ -1,7 +1,6 @@
 // src/components/ui/AboutUsPage.jsx
 import React from 'react';
-import aboutUsImage from '../../assets/aboutus.jpg'; // Replace with your actual image
-
+import aboutUsImage from '../../assets/aboutus.jpg'; 
 const AboutUsPage = () => {
   return (
     <div className="bg-white text-gray-800 pt-20 pb-16">

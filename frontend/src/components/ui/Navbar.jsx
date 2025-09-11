@@ -91,7 +91,12 @@ export default function Navbar() {
   180012377888
 </a>
         </span>
-        <a href="#" className="text-sm font-medium hover:underline hover:decoration-2 hover:underline-offset-4">Log in</a>
+        <button
+  onClick={() => window.open("/login", "_blank", "width=600,height=700")}
+  className="bg-blue-600 text-white px-4 py-2 rounded-md"
+>
+  Log in
+</button>
        <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-2 rounded-lg">Get in touch</Button>
       </div>
     </nav>
